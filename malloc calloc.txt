@@ -1,0 +1,5 @@
+by default malloc() creates void type pointer
+
+realloc (P,100) resizes the memory allocated but actually it creates a new block and changes the pointer to point to this new block rather than the old one and frees the old block
+
+
